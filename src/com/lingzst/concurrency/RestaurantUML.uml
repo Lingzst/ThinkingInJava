@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="14.910000000000025" y="545.0">com.lingzst.concurrency.WaitPerson</node>
+    <node x="18.920000000000016" y="325.0">com.lingzst.concurrency.Restaurant</node>
+    <node x="70.31" y="0.0">com.lingzst.concurrency.Meal</node>
+    <node x="0.0" y="151.0">com.lingzst.concurrency.Chef</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lingzst.concurrency.Restaurant" target="com.lingzst.concurrency.Chef">
+      <point x="-79.60000000000002" y="-85.0" />
+      <point x="38.81999999999999" y="300.0" />
+      <point x="24.0" y="300.0" />
+      <point x="-72.0" y="62.0" />
+    </edge>
+    <edge source="com.lingzst.concurrency.Restaurant" target="com.lingzst.concurrency.Meal">
+      <point x="79.6" y="-85.0" />
+      <point x="198.02" y="300.0" />
+      <point x="202.5" y="300.0" />
+      <point x="202.5" y="126.0" />
+      <point x="190.31" y="126.0" />
+      <point x="40.0" y="50.5" />
+    </edge>
+    <edge source="com.lingzst.concurrency.WaitPerson" target="com.lingzst.concurrency.Restaurant">
+      <point x="-77.625" y="-50.5" />
+      <point x="40.785000000000025" y="520.0" />
+      <point x="43.795000000000016" y="520.0" />
+      <point x="-74.625" y="85.0" />
+    </edge>
+    <edge source="com.lingzst.concurrency.Chef" target="com.lingzst.concurrency.Meal">
+      <point x="0.0" y="-62.0" />
+      <point x="96.0" y="126.0" />
+      <point x="110.31" y="126.0" />
+      <point x="-40.0" y="50.5" />
+    </edge>
+    <edge source="com.lingzst.concurrency.Restaurant" target="com.lingzst.concurrency.WaitPerson">
+      <point x="74.625" y="85.0" />
+      <point x="193.04500000000002" y="520.0" />
+      <point x="196.03500000000003" y="520.0" />
+      <point x="77.625" y="-50.5" />
+    </edge>
+    <edge source="com.lingzst.concurrency.Chef" target="com.lingzst.concurrency.Restaurant">
+      <point x="72.0" y="62.0" />
+      <point x="168.0" y="300.0" />
+      <point x="158.22" y="300.0" />
+      <point x="39.79999999999998" y="-85.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="239.5" />
+  <SelectedNodes>
+    <node>com.lingzst.concurrency.Meal</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
