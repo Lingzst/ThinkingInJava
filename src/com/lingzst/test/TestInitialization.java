@@ -27,6 +27,5 @@ public class TestInitialization {
     }
     public static void main(String[] args) {
         new TestInitialization();
-
     }
 }
